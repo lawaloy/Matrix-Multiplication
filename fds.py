@@ -16,7 +16,7 @@
             for col in range(cols_B):
                 sum = 0
                 for num in range(cols_A):
-                    sum += A[row][col] * B[col][num]
+                    sum += A[row][num] * B[num][col]
                 product[row][col] = sum
         
         
